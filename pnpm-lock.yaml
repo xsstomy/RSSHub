@@ -203,8 +203,8 @@ devDependencies:
     specifier: 2.13.6
     version: 2.13.6
   '@vercel/nft':
-    specifier: 0.23.0
-    version: 0.23.0
+    specifier: 0.24.4
+    version: 0.24.4
   cross-env:
     specifier: 7.0.3
     version: 7.0.3
@@ -1539,9 +1539,9 @@ packages:
     dev: false
     optional: true
 
-  /@vercel/nft@0.23.0:
-    resolution: {integrity: sha512-1iuPjyltiPqyZrvc/bW1CyICRdng8bVhpJT8MsIXV7Wj+mRFyJs9krsHbVy2pZwu7BMAgforQsT5TCY1JoBDxw==}
-    engines: {node: '>=14'}
+  /@vercel/nft@0.24.4:
+    resolution: {integrity: sha512-KjYAZty7boH5fi5udp6p+lNu6nawgs++pHW+3koErMgbRkkHuToGX/FwjN5clV1FcaM3udfd4zW/sUapkMgpZw==}
+    engines: {node: '>=16'}
     hasBin: true
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.10
