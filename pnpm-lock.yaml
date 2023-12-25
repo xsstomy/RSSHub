@@ -174,8 +174,8 @@ dependencies:
     specifier: 0.1.5
     version: 0.1.5
   socks-proxy-agent:
-    specifier: 8.0.1
-    version: 8.0.1
+    specifier: 8.0.2
+    version: 8.0.2
   source-map:
     specifier: 0.7.4
     version: 0.7.4
@@ -1610,15 +1610,6 @@ packages:
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
-
-  /agent-base@7.0.1:
-    resolution: {integrity: sha512-V9to8gr2GK7eA+xskWGAFUX/TLSQKuH2TI06c/jGLL6yLp3oEjtnqM7a5tPV9fC1rabLeAgThZeBwsYX+WWHpw==}
-    engines: {node: '>= 14'}
-    dependencies:
-      debug: 4.3.4
-    transitivePeerDependencies:
-      - supports-color
-    dev: false
 
   /agent-base@7.1.0:
     resolution: {integrity: sha512-o/zjMZRhJxny7OyEF+Op8X+efiELC7k7yOjMzgfzVqOzXqkBkWI79YoTdOtsuWd5BWhAGAuOY/Xa6xpiaWXiNg==}
@@ -6005,7 +5996,7 @@ packages:
       http-proxy-agent: 7.0.0
       https-proxy-agent: 7.0.0
       pac-resolver: 6.0.1
-      socks-proxy-agent: 8.0.1
+      socks-proxy-agent: 8.0.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -6294,7 +6285,7 @@ packages:
       lru-cache: 7.18.3
       pac-proxy-agent: 6.0.3
       proxy-from-env: 1.1.0
-      socks-proxy-agent: 8.0.1
+      socks-proxy-agent: 8.0.2
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -7002,11 +6993,11 @@ packages:
       - supports-color
     dev: false
 
-  /socks-proxy-agent@8.0.1:
-    resolution: {integrity: sha512-59EjPbbgg8U3x62hhKOFVAmySQUcfRQ4C7Q/D5sEHnZTQRrQlNKINks44DMR1gwXp0p4LaVIeccX2KHTTcHVqQ==}
+  /socks-proxy-agent@8.0.2:
+    resolution: {integrity: sha512-8zuqoLv1aP/66PHF5TqwJ7Czm3Yv32urJQHrVyhD7mmA6d61Zv8cIXQYPTWwmg6qlupnPvs/QKDmfa4P/qct2g==}
     engines: {node: '>= 14'}
     dependencies:
-      agent-base: 7.0.1
+      agent-base: 7.1.0
       debug: 4.3.4
       socks: 2.7.1
     transitivePeerDependencies:
