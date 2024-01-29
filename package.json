@@ -75,7 +75,7 @@
     "outputDirectory": "coverage"
   },
   "dependencies": {
-    "@koa/router": "12.0.0",
+    "@koa/router": "12.0.1",
     "@notionhq/client": "2.2.6",
     "@postlight/parser": "2.2.3",
     "@sentry/node": "7.57.0",
